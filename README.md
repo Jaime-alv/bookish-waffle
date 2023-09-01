@@ -1,7 +1,7 @@
 # bookish-waffle
 
-Dummy project for learning purpouses
+Dummy project for learning purposes
 
 ## New line
 
-Let's text git console commands
+Let's test git console commands
