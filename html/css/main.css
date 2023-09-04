@@ -1,4 +1,44 @@
+/*
+Hex | RGB |
+----|-----|
+#96ceb4 | (150,206,180) |
+#ffeead	| (255,238,173) |
+#ff6f69 | (255,111,105) |
+#ffcc5c	| (255,204,92) |
+#88d8b0	| (136,216,176) |
+*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #96ceb4;
+}
+
+.input-text {
+    padding: 4px;
+    width: 50%;
+    border: none;
+    background-color: #ffeead;
+}
+
+.label-input {
+    color: black;
+    font-size: large;
+}
+
 #main-title {
-    color: red;
+    color: #ff6f69;
     text-align: center;
+    font-size: 24px;
+}
+
+#submit {
+    background-color: #ffcc5c;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: large;
+    text-decoration:solid;
+}
+
+#question {
+    padding: 1%;
 }
