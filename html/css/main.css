@@ -12,6 +12,10 @@ body {
     background-color: #96ceb4;
 }
 
+.text {
+    padding: 2%;
+}
+
 .input-text {
     padding: 4px;
     width: 50%;
@@ -24,6 +28,20 @@ body {
     font-size: large;
 }
 
+.button {
+    background-color: #ffcc5c;
+    color: black;
+    border: none;
+    padding: 2%;
+    font-size: large;
+    text-decoration:solid;
+    font-weight: bold; 
+}
+
+#lorem-ipsum {
+    text-align: justify;
+}
+
 #main-title {
     color: #ff6f69;
     text-align: center;
@@ -31,12 +49,7 @@ body {
 }
 
 #submit {
-    background-color: #ffcc5c;
-    color: black;
-    border: none;
     padding: 15px 30px;
-    font-size: large;
-    text-decoration:solid;
 }
 
 #question {
