@@ -1,0 +1,80 @@
+/*
+Hex	RGB
+#666547	(102,101,71)
+#fb2e01	(251,46,1)
+#6fcb9f	(111,203,159)
+#ffe28a	(255,226,138)
+#fffeb3	(255,254,179) 
+ */
+
+body {
+    background-color: #ffe28a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.main-title {
+    color: #fb2e01;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.recipe-head-table {
+    width: 100%;
+    padding: 5%;
+}
+
+.recipe-head-table th {
+    color: #6fcb9f;
+    padding: 2%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recipe-head-table td {
+    padding: 2%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+    vertical-align: top;
+    font-weight: 500;
+    color: #666547;
+}
+
+.text {
+    font-size: 15px;
+    color: #666547;
+}
+
+.text ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text h2 {
+    color: #6fcb9f;
+}
+
+.index-recipe-links table {
+    width: 60%;
+    padding: 0, 10%;
+}
+
+.index-recipe-links td {
+    height: 45px;
+}
+
+.index-recipe-links tr:hover {
+    background-color: coral;
+}
+
+
+#description {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#index-title {
+    font-size: 40px;
+}
