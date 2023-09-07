@@ -1,0 +1,17 @@
+.red-background-font {
+    background-color: #f08080;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.font-24 {font-size: 24px;}
+
+#two {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
