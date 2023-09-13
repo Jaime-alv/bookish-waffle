@@ -53,7 +53,17 @@ body {
 }
 
 .text h2 {
-    color: #6fcb9f;
+    color: #6fcb9f;    
+}
+
+.big {
+    font-size: 45px;
+}
+
+
+
+.text .underline-grey {
+    text-decoration: underline;
 }
 
 .index-recipe-links table {
@@ -70,7 +80,7 @@ body {
 }
 
 
-#description {
+.description {
     text-align: justify;
     font-size: 20px;
 }
