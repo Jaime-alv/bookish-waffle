@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    padding: 25px;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    /* flex-direction: column; */
+    gap: 10px;
+}
+
+.flex-container .one {
+    flex: 4 1 20%;
+}
+
+.flex-container div {
+    flex: 1 1 auto;
+    background-color: lightskyblue;
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+}
+

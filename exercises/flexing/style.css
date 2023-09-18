@@ -1,0 +1,61 @@
+.blue-flex,
+.yellow-flex,
+.red-flex,
+.violet-flex,
+.invisible-flex {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.parent {
+    border: 3px solid lightgreen;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.blue-flex {    
+    background-color: lightblue;
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.yellow-flex {
+    background-color: lightyellow;
+    border: 3px solid orange;
+}
+
+.yellow-flex .red-flex {
+    background-color: lightcoral;
+    border: 3px solid red;
+    margin: -10px;
+}
+
+.invisible-flex {
+    padding: 0px 5px;
+}
+
+.invisible-flex .yellow-flex {
+    margin: 0px 2px;
+}
+
+.violet-flex {
+    background-color: plum;
+    border: 3px solid purple;
+}
+
+.brown-box {
+    flex: 1;
+    background-color:slategray;
+    border: 3px solid goldenrod;
+}
+
+.invisible-flex .brown-box {
+    margin: 10px -5px;
+    padding: 20px;    
+}
+
+.lateral-box {
+    flex: 1;
+    margin: 0px 0px 0px 20px;
+}
