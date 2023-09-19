@@ -42,9 +42,12 @@ a {
 }
 
 .content,
-.header {
+.header,
+.quotes,
+.subscribe {
     display: flex;
     flex-direction: column;
+    padding: 60px 20%;
 }
 
 .footer {
@@ -103,6 +106,7 @@ a {
     width: 200px;
     height: 200px;
     align-self: center;
+    text-align: center;
 }
 
 .image-collection {
@@ -121,17 +125,29 @@ a {
     text-align: center;
 }
 
-.header,
-.content,
-.quotes,
-.subscribe {
-    padding: 40px 20%;
-}
-
 .header-text {
     text-align: center;
     color: #1f2937;
     font-size: 36px;
     font-weight: bold;
     padding-bottom: 40px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+.quotes .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.text .author {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
 }
