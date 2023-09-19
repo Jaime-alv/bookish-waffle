@@ -151,3 +151,26 @@ a {
     font-size: 24px;
     font-style: normal;
 }
+
+.container-subscribe {
+    background-color: #3882F6;
+    padding: 20px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 30px;
+}
+
+.container-subscribe .button {
+    border: #F9FAF8 2px solid;
+    padding: 10px 30px;
+    flex-shrink: 0;
+    width: 150px;
+}
+
+.container-subscribe .title {
+    font-size: 36px;
+    font-weight: 1000;
+}
